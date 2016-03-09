@@ -1,8 +1,11 @@
 // all my variables for this quiz so I don't have to type stuff over and over
 var counter = 0
-var name = prompt('What is your name?');
 var correct = 'Hooray! Correct!'
 var incorrect = 'Boo. You\'re wrong.'
+
+// ask quiz takers name. I'm okay with null and undefined names at this point.
+var name = prompt('What is your name?');
+
 
 // force quiz taker to take the quiz
 ready = prompt('Hello, ' + name + '. Are you ready to take the quiz?');
