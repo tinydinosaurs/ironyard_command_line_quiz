@@ -202,7 +202,7 @@ timerEnd = Date.now();
 console.log('You got ' + counter + ' out of 15 correct. Thats ' + Math.round(counter / 15 * 100) + ' percent!')
 
 //log quiz time.
-console.log('You finished the quiz in ' + (timerEnd - timerStart) + ' seconds.')
+console.log('You finished the quiz in ' + (timerEnd - timerStart) / 1000 + ' seconds.')
 
 
 
